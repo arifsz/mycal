@@ -1,4 +1,3 @@
-<script type='text/javascript'>
  var dN = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jum'at", "Sabtu"];
  var pN = ["Legi", "Pahing", "Pon", "Wage", "Kliwon"];
  var mN = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];
@@ -109,4 +108,3 @@
   showDay.innerHTML = dN[dTcL.getDay()] + " " + pN[Math.floor(pScL)];
   setTimeout("chgClk()", 200);
  };
-</script>
