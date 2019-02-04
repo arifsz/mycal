@@ -72,3 +72,4 @@ fixd=gregToFixed(y, m, d);
 var h=new Hijri(1421, 11, 28);
 h = fixedToHijri(fixd);
 Hj.innerHTML = (h.toString() + " H ");
+Hj1.innerHTML = (h.toString() + " H ");
