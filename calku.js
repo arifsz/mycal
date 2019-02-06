@@ -61,7 +61,7 @@
   }
   for (aD = 1; aD <= new Date(yR, (mT + 1), 0).getDate(); aD++) {
    pS = (((new Date(yR, mT, aD).getTime() - new Date(100, 0, 1).getTime()) / (24 * 60 * 60 * 1000)) % 5);
-   document.getElementById("iD" + bD).innerHTML = "<font style='font-size:28px;'>" + aD + "</font><br/>" +  pN[Math.floor(pS)];
+   document.getElementById("iD" + bD).innerHTML = "<font style='font-size:25px;'>" + aD + "</font><br/>" +  pN[Math.floor(pS)];
    if (aD == dT.getDate() & mT == dT.getMonth() & yR == dT.getFullYear()) {
     document.getElementById("iD" + bD).style.backgroundColor = "#ffff66";
    }
